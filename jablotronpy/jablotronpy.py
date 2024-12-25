@@ -18,8 +18,8 @@ class Jablotron:
         :param password: Password used for Jablotron
         """
         self.headers = {
-            "x-vendor-id": "JABLOTRON:Jablotron",
-            "x-client-version": "MYJ-PUB-ANDROID-15",
+            "x-vendor-id": "INDEXA:System9000",
+            "x-client-version": "OEMJ-PUB-IOS-8.4.3.3567",
             "accept-encoding": "*",
             "Accept": "application/json",
             "Content-Type": "application/json",

@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="JablotronPy",
-    version="0.6.4",
-    author="F. de Gier",
-    author_email="freddegier@me.com",
-    description="A client to interact with the Jablotron API to control Jablotron alarm systems",
+    version="0.0.1",
+    author="Roland Moers",
+    author_email="roland.moers@gmail.com",
+    description="A client to interact with the Jablotron API to control Index System 9000 alarm systems",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/fdegier/JablotronPy",
+    url="https://github.com/CooperRS/JablotronPy",
     packages=["jablotronpy"],
     python_requires=">=3.6",
     install_requires=["requests>=2.25.0"]
